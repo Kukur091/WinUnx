@@ -1,9 +1,15 @@
 #ifndef CREATEFILE_HPP
 #define CREATEFILE_HPP
 
-class CreateFile{
+#include "../Commands.hpp"
+
+class CreateFile : public Commands{
+    private:
+        string command;        
     public:
-        void CreatingFile();
+        CreateFile();
+        void Command(string cmd);
+        string getCommand();
 };
 
 #endif

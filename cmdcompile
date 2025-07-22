@@ -1,0 +1,2 @@
+x86_64-w64-mingw32-g++ -o cmdconsole.exe main.cpp src/Events/ConsoleEvents.cpp src/Events/KeyEvents.cpp src/Commands/FileCommands/CreateFile.cpp src/Commands/Commands.cpp -Iinclude -static
+

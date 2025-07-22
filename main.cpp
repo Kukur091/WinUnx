@@ -6,6 +6,7 @@ int main(){
     ConsoleEvents console;
     while(true){
         console.Waiting();
+        Sleep(0);
     }
     return 0;
 }
