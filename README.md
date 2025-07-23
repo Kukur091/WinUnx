@@ -56,7 +56,7 @@ git clone https://github.com/Kukur091/WinUnx.git
 cd WinUnx
 
 # Compile (adjust compiler as needed)
-g++ -o winunx WinUnix.cpp
+(i will add the good command to use later)
 
 # Or use Visual Studio
 # Open WinUnx.cpp in Visual Studio and build
